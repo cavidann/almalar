@@ -1,0 +1,37 @@
+body {
+    position: relative;
+}
+
+#div1 {
+    width: 120px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    padding-top: 80px;
+}
+
+#div2 {
+    width: 120px;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+
+#div3 {
+    border: 1px solid;
+    height: 100px;
+    width: 120px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+#drag1 {
+    background: red;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
