@@ -1,3 +1,13 @@
+var width = 0;
+var yer = 60;
+var x = 200;
+var y = 282;
+var i = 0;
+
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
 function drag(ev) {
     ev.dataTransfer.setData("text", ev.target.id);
 }
