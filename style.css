@@ -1,31 +1,16 @@
 body {
     position: relative;
 }
-
-#div1 {
-    width: 120px;
-    position: absolute;
-    top: 200px;
-    left: 200px;
-    padding-top: 80px;
-}
-
-#div2 {
-    width: 120px;
-    position: absolute;
-    top: 200px;
-    left: 50px;
-}
-
 #div3 {
-    border: 1px solid;
+    border-left: 1px solid;
+     border-right: 1px solid;
+      border-bottom: 1px solid;
     height: 100px;
-    width: 120px;
+    width: 60px;
     position: absolute;
     top: 200px;
     left: 200px;
 }
-
 #drag1 {
     background: red;
     border-radius: 100%;
